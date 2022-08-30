@@ -26,18 +26,6 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/favicon270.svg?v=2021-09-21T16:18:07.731Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000848"} />
 		</Helmet>
-		<Image
-			md-top="300px"
-			lg-top="0px"
-			src="https://uploads.quarkly.io/6123949e957019001e284458/images/backgroung-hero.svg?v=2021-09-21T22:07:12.314Z"
-			position="absolute"
-			right="0px"
-			bottom="auto"
-			top="130px"
-			z-index="1"
-			lg-right="-200px"
-			md-width="600px"
-		/>
 		<Section background="linear-gradient(264.47deg, #000848 29.39%, #000848 93.49%)" padding="36px 0 36px 0" quarkly-title="Header">
 			<Override slot="SectionContent" flex-direction="row" />
 			<Box
@@ -63,91 +51,7 @@ export default (() => {
 				empty-border-style="solid"
 				empty-border-color="LightGray"
 				display="flex"
-			>
-				<Components.QuarklycommunityKitMobileSidePanel md-z-index="9">
-					<Override
-						slot="Content"
-						align-items="center"
-						padding="16px 0px 16px 16px"
-						md-background="--color-light"
-						md-z-index="9"
-						md-justify-content="flex-start"
-						background="rgba(255, 255, 255, 0)"
-						justify-content="center"
-					/>
-					<Override slot="Children" justify-content="center" display="flex" align-items="center" />
-					<Override slot="Button Text" md-display="none" />
-					<Override slot="Button Icon" md-color="--white" md-font="36px sans-serif" />
-					<Override slot="Cross" md-color="--dark" md-font="36px sans-serif" />
-					<Override slot="Wrapper" md-z-index="9" />
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="flex-end"
-						md-flex-direction="column"
-						md-margin="40px 0px 13px 0px"
-						md-font="--headline4"
-					>
-						<Link
-							href="#"
-							font="normal 600 18px/1.5 --fontFamily-googleInter"
-							text-decoration-line="initial"
-							color="--white"
-							margin="0px 20px 0px 20px"
-							md-margin="0px 0px 13px 0px"
-							md-font="--lead"
-							md-color="--indigo"
-						>
-							Home
-						</Link>
-						<Link
-							transition="opacity 0.3s ease 0s"
-							md-margin="0px 0px 13px 0px"
-							href="#about"
-							font="--base"
-							text-decoration-line="initial"
-							hover-opacity="1"
-							md-font="--lead"
-							md-color="--indigo"
-							color="--grey"
-							margin="0px 20px 0px 20px"
-							opacity="0.8"
-						>
-							Application
-						</Link>
-						<Link
-							color="--grey"
-							margin="0px 20px 0px 20px"
-							transition="opacity 0.3s ease 0s"
-							md-margin="0px 0px 13px 0px"
-							md-font="--lead"
-							href="#contact"
-							font="--base"
-							text-decoration-line="initial"
-							opacity="0.8"
-							hover-opacity="1"
-							md-color="--indigo"
-						>
-							Health
-						</Link>
-						<Link
-							hover-opacity="1"
-							md-font="--lead"
-							md-color="--indigo"
-							font="--base"
-							color="--grey"
-							opacity="0.8"
-							transition="opacity 0.3s ease 0s"
-							md-margin="0px 0px 13px 0px"
-							href="#testimonial"
-							text-decoration-line="initial"
-							margin="0px 8px 0px 20px"
-						>
-							Reviews
-						</Link>
-					</Box>
-				</Components.QuarklycommunityKitMobileSidePanel>
-			</Box>
+			/>
 		</Section>
 		<Section background="linear-gradient(264.47deg, #000848 29.39%, #000848 93.49%)" padding="36px 0 80px 0" quarkly-title="HeroBlock" md-padding="36px 0 60px 0">
 			<Override
@@ -184,7 +88,7 @@ export default (() => {
 					lg-margin="0px 0px 8px 0px"
 					sm-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
 				>
-					$11/mo. — no insurance needed
+					Selamat datang di
 				</Text>
 				<Text
 					lg-text-align="left"
@@ -289,7 +193,7 @@ export default (() => {
 					width="100%"
 					max-height="450px"
 					md-margin="0px 0px 30px 0px"
-					src="https://uploads.quarkly.io/630e940f21e43d002098b05f/images/Bi-Fast-Brimo.jpg?v=2022-08-30T22:59:52.583Z"
+					src="https://uploads.quarkly.io/630e940f21e43d002098b05f/images/71a72847-30b4-d618-5842-45dfcaf0a631.png?v=2022-08-30T23:08:45.550Z"
 					lg-position="relative"
 					lg-left="-5px"
 					max-width="100%"
