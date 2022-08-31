@@ -41,17 +41,6 @@ export default (() => {
 			>
 				<Image height="auto" src="https://uploads.quarkly.io/630e940f21e43d002098b05f/images/bri-logo-white.png?v=2022-08-30T22:54:47.875Z" width="100%" max-width="171px" />
 			</Box>
-			<Box
-				empty-min-height="64px"
-				empty-border-width="1px"
-				width="70%"
-				sm-width="50%"
-				align-items="center"
-				empty-min-width="64px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-			/>
 		</Section>
 		<Section background="linear-gradient(264.47deg, #000848 29.39%, #000848 93.49%)" padding="36px 0 80px 0" quarkly-title="HeroBlock" md-padding="36px 0 60px 0">
 			<Override
