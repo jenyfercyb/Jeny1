@@ -41,17 +41,6 @@ export default (() => {
 			>
 				<Image height="auto" src="https://uploads.quarkly.io/630e940f21e43d002098b05f/images/bri-logo-white.png?v=2022-08-30T22:54:47.875Z" width="100%" max-width="171px" />
 			</Box>
-			<Box
-				empty-min-height="64px"
-				empty-border-width="1px"
-				width="70%"
-				sm-width="50%"
-				align-items="center"
-				empty-min-width="64px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-			/>
 		</Section>
 		<Section background="linear-gradient(264.47deg, #000848 29.39%, #000848 93.49%)" padding="36px 0 80px 0" quarkly-title="HeroBlock" md-padding="36px 0 60px 0">
 			<Override
@@ -215,6 +204,19 @@ export default (() => {
 				justify-content="space-between"
 				empty-min-height="64px"
 				empty-border-width="1px"
+				md-order="-1"
+				md-align-self="auto"
+				md-height="max-content"
+				md-min-height="none"
+				md-overflow-x="scroll"
+				md-align-items="center"
+				md-flex-direction="column"
+				md-overflow-y="scroll"
+				md-justify-content="center"
+				md-align-content="center"
+				md-flex-wrap="wrap"
+				md-hover-align-self="flex-end"
+				md-hover-height="fit-content"
 			>
 				<Image
 					position="static"
@@ -222,10 +224,14 @@ export default (() => {
 					md-width="100%"
 					border-radius="10px"
 					lg-max-height="366px"
-					src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+					src="https://uploads.quarkly.io/630e940f21e43d002098b05f/images/856c9fe9-53a9-e1cb-7bd4-7a1b692bc6b7.jpg?v=2022-08-31T01:41:19.054Z"
 					left="-140px"
 					max-width="100%"
 					object-fit="cover"
+					md-display="flex"
+					md-order="-1"
+					md-hover-position="relative"
+					md-hover-text-align="center"
 				/>
 			</Box>
 			<Box
